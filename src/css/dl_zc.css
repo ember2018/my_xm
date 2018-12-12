@@ -1,0 +1,249 @@
+#dl_main {
+  height: 600px;
+  background: #F8F8F8;
+  padding: 45px 0 0 140px;
+  overflow: hidden;
+  cursor: default;
+}
+
+#dl_main .ts {
+  color: red;
+  visibility: hidden;
+}
+
+#dl_main .dl {
+  width: 352px;
+  border: 1px solid #ddd;
+  margin-left: 193px;
+}
+
+#dl_main .dl .tou {
+  width: 352px;
+  height: 53px;
+  border-bottom: 1px solid #ddd;
+  padding-top: 16px;
+}
+
+#dl_main .dl .tou .deng {
+  width: 176px;
+  font-size: 18px;
+  font-weight: 550;
+  color: #333;
+  text-align: center;
+}
+
+#dl_main .dl .tou .sjh {
+  color: #E31436;
+  border-right: 1px solid #ddd;
+}
+
+#dl_main .dl .zhu {
+  padding: 19px 40px 29px 40px;
+  font-size: 12px;
+  color: #666;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+#dl_main .dl .zhu .shiyan {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+#dl_main .dl .zhu .bo {
+  position: relative;
+}
+
+#dl_main .dl .zhu .username {
+  width: 270px;
+  height: 37px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  border-radius: 3px;
+  padding-left: 35px;
+}
+
+#dl_main .dl .zhu .shouji2 {
+  position: absolute;
+  left: 10px;
+  top: 8px;
+}
+
+#dl_main .dl .zhu .password {
+  width: 270px;
+  height: 37px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  border-radius: 3px;
+  padding-left: 15px;
+}
+
+#dl_main .dl .zhu .yanzheng {
+  width: 270px;
+  height: 37px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+#dl_main .dl .zhu .yanzheng .yan {
+  width: 170px;
+  height: 37px;
+  border-right: 1px solid #ddd;
+  padding-left: 15px;
+}
+
+#dl_main .dl .zhu .yanzheng .yzm {
+  text-align: center;
+  width: 98px;
+  height: 37px;
+  line-height: 37px;
+  background: #EEEEEE;
+}
+
+#dl_main .dl .zhu .dl_btn {
+  margin-top: 12px;
+  width: 270px;
+  height: 35px;
+  background: #E31436;
+  text-align: center;
+  color: #fff;
+  line-height: 35px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+#dl_main .dl .wei {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 38px;
+  font-size: 15px;
+  color: #E31436;
+  background: #F8F8F8;
+}
+
+#dl_main .zhuce {
+  display: none;
+  width: 352px;
+  border: 1px solid #ddd;
+  margin-left: 193px;
+}
+
+#dl_main .zhuce .tou {
+  width: 352px;
+  height: 53px;
+  border-bottom: 1px solid #ddd;
+  padding-top: 16px;
+  font-size: 12px;
+}
+
+#dl_main .zhuce .tou .deng {
+  width: 176px;
+  font-size: 18px;
+  font-weight: 550;
+  color: #333;
+  text-align: center;
+}
+
+#dl_main .zhuce .tou .sjh {
+  color: #E31436;
+  margin-right: 25px;
+}
+
+#dl_main .zhuce .tou .qudenglu {
+  color: #51b8f1;
+}
+
+#dl_main .zhuce .zhu {
+  padding: 19px 40px 29px 40px;
+  font-size: 12px;
+  color: #666;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+#dl_main .zhuce .zhu .bo {
+  position: relative;
+}
+
+#dl_main .zhuce .zhu .username {
+  width: 270px;
+  height: 37px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  border-radius: 3px;
+  padding-left: 35px;
+}
+
+#dl_main .zhuce .zhu .shouji2 {
+  position: absolute;
+  left: 10px;
+  top: 8px;
+}
+
+#dl_main .zhuce .zhu .password {
+  width: 270px;
+  height: 37px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  border-radius: 3px;
+  padding-left: 15px;
+}
+
+#dl_main .zhuce .zhu .yanzheng {
+  width: 270px;
+  height: 37px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+#dl_main .zhuce .zhu .yanzheng .yan {
+  width: 170px;
+  height: 37px;
+  border-right: 1px solid #ddd;
+  padding-left: 15px;
+}
+
+#dl_main .zhuce .zhu .yanzheng .yzm {
+  text-align: center;
+  width: 98px;
+  height: 37px;
+  line-height: 37px;
+  background: #EEEEEE;
+}
+
+#dl_main .zhuce .zhu .dl_btn {
+  margin-top: 12px;
+  width: 270px;
+  height: 35px;
+  background: #E31436;
+  text-align: center;
+  color: #fff;
+  line-height: 35px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.foot_wrapper{
+  height: 114px;
+  margin-top:10px;
+}
+.foot_wrapper a{
+  text-decoration: none;
+}
+.foot{
+  height: 114px;
+  text-align: center;
+}
+.foot .about{
+  color: #8c8c8c;
+  line-height: 30px;
+}
+.foot .about a{
+  color: #8c8c8c;
+}
+
