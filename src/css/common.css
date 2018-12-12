@@ -156,9 +156,11 @@
     color: #000;
 }
 .shop a:hover{
-    
     color:#ff2856;
 }
+
+
+
 
 .topTab_wrapper{
     height: 40px;
@@ -204,14 +206,9 @@
     text-align: left;
     color: #333;
     cursor: auto;
-    display: block;
-}
-.dropdown_tip{
-    border-bottom: .5px solid #8c8c8c;
-    height: 34px;
+    display: none;
     
 }
-
 
 .topTab{
     height: 40px;
@@ -251,14 +248,8 @@
 }
 .funcTab a:hover{
     color: #ff2856;
-    
+
 }
-
-
-
-
-
-
 
 .footer_wrapper{
     height: 564px;
