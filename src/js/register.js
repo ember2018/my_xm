@@ -1,112 +1,85 @@
 
 
-var block = (function () {
+var register = (function () {
 
-    var checkInput = {
-        phone(str) {
-            var reg = /^1[35789]\d{9}$/;
-            return reg.test(str);
-        },
-        password(str) {
-            var reg = /^\w{6,20}$/;
-            return reg.test(str);
-        },
-        proving(str) {
-            return false;
-        }
-    }
-    var flag = false;
-    var newcode;
-    var timer = null;
     return {
         init(ele) {
-            // 选择整个表单          
-            this.$form = document.querySelector(".registe_bottom");
-            //选择滑块框
-            this.$lock = document.querySelector(".block");
-            //选择小滑块
-            this.$kuai = this.$lock.children[0];
-            //选择手机框
-            this.$phone = document.querySelector(".phone");
-            //选择验证框
-            this.$phone = document.querySelector(".proving");
-            //选择密码框
-            this.$phone = document.querySelector(".password");
-            //选择所有input
-            this.$inputAll = document.querySelectorAll(".input");
-            this.$p = document.querySelector(".tip")
-            //验证滑块
-            this.huakuai();
+            this.$username = $(".username");
+            this.$password1 = $(".password1");
+            this.$password2 = $(".password2");    
+            this.dneglu = $(".qudenglu");
+            this.zhuce = $(".zhuce");
+            this.$yan = $(".yan");
+            this.$yzm = $(".yzm");
+            this.$btn = $(".dl_btn")
+            this.$ts5=$(".ts5");
+            this.$ts6=$(".ts6");
+            this.$ts7=$(".ts7");
+            this.$ts8=$(".ts8");
             this.event();
 
         },
         event(ele) {
+        var _this = this;
 
+        this.$username.on("change",function(){
 
-            var _this = this;
-            for (let i = 0; i < this.$inputAll.length; i++) {
-                _this.$inputAll[i].onblur = function () {
+            var phone=_this.$username.val();
 
-                    if (this.value == '') {
-                        this.classList.add("error");
-                        _this.$p.innerHTML = "内容为空"
-                    }
-                    else {
-                        var bool = checkInput[this.name](this.value);
+            if(!(/^1[34578]\d{9}$/.test(phone))){ 
+                _this.$ts5.css({"visibility":"visible"});
+                return false;
+            }else{
+                _this.$ts5.css({"visibility":"hidden"});
+        };
 
-                        if (bool) {
-                            this.classList.add("success");
-                            _this.$p.innerHTML = '';
-                        } else {
-                            this.classList.add('error');
-                            _this.$p.innerHTML = "填写错误"
-                        }
-                    }
-
-
-
-
-
-                }
-
-
+        });
+        
+       this.$password1.on("change",function(){
+            var password1=_this.$password1.val();
+            if(!/^[^\s]{6,20}$/.test(password1)){
+                _this.$ts6.css({"visibility":"visible"});
+                return false;
+            }else{
+                _this.$ts6.css({"visibility":"hidden"});
             }
-        },
-        huakuai(e) {
-            var _this = this;
-            this.$kuai.onmousedown = function (e) {
-                e = e || window.event;
-                var x = e.offsetX;
-                var maxX = _this.$lock.clientWidth - this.offsetWidth;
-                _this.$lock.onmousemove = function (ev) {
-                    var left = ev.pageX - x - this.offsetLeft - _this.$form.offsetLeft;
-                    if (left > maxX) {
-                        left = maxX
-                    } else if (left < 0) {
-                        left = 0;
-                    }
-                    _this.$kuai.style.left = left + 'px';
-                }
+         });
+       
+
+        this.$password2.on("change",function(){
+            var password2=_this.$password2.val();
+            if(!(_this.$password1.val()==_this.$password2.val())){
+                _this.$ts7.css({"visibility":"visible"});
+                return false;
+            }else{
+                _this.$ts7.css({"visibility":"hidden"});
             }
-            document.onmouseup = function () {
-                _this.$lock.onmousemove = null;
-                var timer = setInterval(_ => {
-                    var left = parseInt(_this.$kuai.style.left) - 10;
-                    if (left <= 0) {
-                        left = 0;
-                        clearInterval(timer);
-                    }
-                    _this.$kuai.style.left = left + 'px'
-                }, 20)
-            }
+         });
+
+        //  this.$yzm.on("change",function(){
+        //     var proving=_this.$yan.val();
+            
+        //     if(!(_this.$yan.val()==this.$yzm.val())){
+        //         _this.$ts8.css({"visibility":"visible"});
+        //         return false;
+        //     }else{
+        //         _this.$ts8.css({"visibility":"hidden"});
+        //     }
+        //  });
+
+        this.dneglu.on("click",function(){
+            _this.zhuce.css({ "display": "none"});
+        });
+
+
+
+
+
         }
-
-
-
 
     }
 }())
-block.init('.registe_bottom');
+register.init('.zhuce');
 
 
 
