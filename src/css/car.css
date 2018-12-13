@@ -183,7 +183,6 @@
   width: 100px;
   overflow: hidden;
   float: right;
-  margin-top: -41px;
 }
 
 #car_main .sp .zhong_sp li .sch .shanchu {
@@ -213,7 +212,7 @@
 
 #car_main .j_s {
   width: 1090px;
-  height: 60px;
+  height: 62px;
   border: 1px solid #ddd;
   background: #f8f8f8;
   font-size: 12px;

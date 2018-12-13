@@ -25,14 +25,7 @@ var login = (function () {
                         $p.innerHTML = '';
                         }
                     }
-                }
-
-
-
-
-
-
-                
+                }   
             }
         }
 }())

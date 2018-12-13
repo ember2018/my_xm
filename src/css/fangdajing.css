@@ -62,10 +62,87 @@
     overflow: hidden;
     border: 1px solid #eee;
     display: none;
+    z-index: 4;
   }
   .show-big-image img {
     position: absolute;
     left: 0;
     top: 0;
     width: 1080px;
+
   }
+
+.pro_buyinfo{
+    width: 550px;
+    height: 607px;
+    position: absolute;
+    float: right;
+    top: 224px;
+    right:205px;
+}
+.pib-title-class{
+    width: 340px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    color: #777578;
+    line-height: 22px;
+    min-height: 22px;
+}
+.pib-title-info{
+    font-size: 16px;
+    color: #333;
+    max-height: 40px;
+    overflow: hidden;
+    line-height: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.pbox_price_show,.peisong,.yunfei,.xzcolor,.xzsize,.xzshuliang{
+    height: 50px;
+    line-height: 50px;
+    color: #666;
+    font-size: 16px;
+}
+.weipinjia{
+    margin-left: 20px;
+}
+.dicount_box{
+    margin-left: 20px;
+    color: #999;
+    font-size: 16px;
+}
+.pbox_off{
+    margin-left: 10px;
+}
+.xzjiarugw{
+    margin-top: 20px;
+    margin-left: 40px;
+    display: flex;justify-content: space-between;
+}
+.xzjiarugw .goumai{
+    display: block;
+    height: 46px;
+    width: 200px;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    line-height: 46px;
+    font-size: 20px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.xzshuliang{
+  display: flex;
+line-height: 30px;
+  align-items: center;
+}
+.xzshuliang .sub,.add,.num{
+
+    width: 30px;
+    height: 30px;
+}
