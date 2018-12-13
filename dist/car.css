@@ -1,0 +1,355 @@
+
+#car_main {
+  padding: 20px 0;
+  cursor: default;
+}
+
+#car_main .mycar {
+  font-size: 12px;
+  line-height: 24px;
+  color: #333;
+}
+
+#car_main .mycar .yi {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+#car_main .mycar .zaiguang {
+  color: #51B8F1;
+}
+
+#car_main .mycar .laba {
+  color: #E31436;
+  margin-right: 5px;
+}
+
+#car_main .mycar .dizhi {
+  width: 139px;
+  height: 20px;
+  border: 1px solid #ddd;
+  display: inline-block;
+  line-height: 20px;
+  padding: 0 4px;
+}
+
+#car_main .mycar .xiajian {
+  margin-top: 3px;
+}
+
+#car_main .yqx {
+  width: 100%;
+  height: 35px;
+  border: 1px solid #bbb;
+  line-height: 35px;
+  color: #999;
+  font-size: 12px;
+  padding-left: 22px;
+}
+
+#car_main .yqx .quan {
+  color: #000;
+  margin: 0 70px 0 12px;
+}
+
+#car_main .yqx .sx {
+  width: 414px;
+}
+
+#car_main .yqx .dj {
+  width: 149px;
+}
+
+#car_main .yqx .sl {
+  width: 148px;
+}
+
+#car_main .yqx .je {
+  width: 135px;
+}
+
+#car_main .ziy {
+  margin: 22px 0 10px 22px;
+  font-size: 15px;
+  color: #333;
+  font-weight: 600;
+}
+
+#car_main .sp {
+  border: 1px solid #ddd;
+  margin-bottom: 30px;
+}
+
+#car_main .sp .luosuo {
+  color: #E31436;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+#car_main .sp .luosuo .zaiguang {
+  color: #51B8F1;
+}
+
+#car_main .sp .zhong_sp {
+  background: #FFFBF0;
+  font-size: 12px;
+  color: #333;
+  overflow: hidden;
+}
+
+#car_main .sp .zhong_sp li {
+  padding: 19px 27px 0 22px;
+  height: 119px;
+}
+
+#car_main .sp .zhong_sp li .danxuan {
+  margin-top: 33px;
+}
+
+#car_main .sp .zhong_sp li .tu {
+  width: 77px;
+  height: 80px;
+  margin: 0 15px 0 5px;
+}
+
+#car_main .sp .zhong_sp li .neirong {
+  line-height: 18px;
+  width: 200px;
+  margin-right: 225px;
+}
+
+#car_main .sp .zhong_sp li .neirong p {
+  color: #666;
+  margin-top: 5px;
+}
+
+#car_main .sp .zhong_sp li .jiner {
+  margin-right: 77px;
+}
+
+#car_main .sp .zhong_sp li .jiner .yuanjia {
+  color: #666;
+  line-height: 24px;
+}
+
+#car_main .sp .zhong_sp li .jiner .xianjia {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#car_main .sp .zhong_sp li .jj {
+  border: 1px solid #ddd;
+  line-height: 23px;
+  text-align: center;
+  margin-right: 60px;
+}
+
+#car_main .sp .zhong_sp li .jj .jian {
+  width: 23px;
+  height: 23px;
+  border-right: 1px solid #ddd;
+  color: #666;
+}
+
+#car_main .sp .zhong_sp li .jj .jia {
+  width: 23px;
+  height: 23px;
+  border-left: 1px solid #ddd;
+  color: #333;
+}
+
+#car_main .sp .zhong_sp li .jj .num {
+  height: 23px;
+  width: 43px;
+  text-align: center;
+}
+
+#car_main .sp .zhong_sp li .xi {
+  text-align: center;
+  margin-right: 47px;
+  overflow: hidden;
+}
+
+#car_main .sp .zhong_sp li .xi .xiaoji {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#car_main .sp .zhong_sp li .xi .sui {
+  color: #666;
+}
+
+#car_main .sp .zhong_sp li .sch {
+  width: 100px;
+  overflow: hidden;
+  float: right;
+  margin-top: -41px;
+}
+
+#car_main .sp .zhong_sp li .sch .shanchu {
+  line-height: 24px;
+}
+
+#car_main .sp .houji {
+  height: 40px;
+  line-height: 40px;
+  text-align: right;
+  font-size: 12px;
+  color: #333;
+}
+
+#car_main .sp .houji .youhui {
+  margin-right: 21px;
+}
+
+#car_main .sp .houji .zhongji {
+  margin-right: 18px;
+  font-weight: 600;
+}
+
+#car_main .sp .houji .shuifei {
+  margin-right: 40px;
+}
+
+#car_main .j_s {
+  width: 1090px;
+  height: 60px;
+  border: 1px solid #ddd;
+  background: #f8f8f8;
+  font-size: 12px;
+  color: #333;
+  padding-left: 22px;
+  overflow: hidden;
+}
+
+#car_main .j_s .quanxuan {
+  margin-top: 23px;
+}
+
+#car_main .j_s .qq {
+  margin: 0 20px 0 10px;
+  color: #000;
+  padding-top: 23px;
+}
+
+#car_main .j_s .shanxuan {
+  margin-right: 320px;
+  padding-top: 23px;
+}
+
+#car_main .j_s .fansi {
+  width: 488px;
+  padding-right: 30px;
+  padding-top: 13px;
+}
+
+#car_main .j_s .fansi .fs {
+  text-align: right;
+  overflow: hidden;
+  line-height: 22px;
+}
+
+#car_main .j_s .fansi .fs .shu {
+  font-size: 14px;
+  font-weight: 600;
+  color: #E31436;
+}
+
+#car_main .j_s .fansi .fs .zongjia {
+  font-size: 15px;
+  font-weight: 600;
+  color: #E31436;
+}
+
+#car_main .j_s .fansi .fs .zongjia::before {
+  content: "￥";
+  display: inline-block;
+}
+
+#car_main .j_s .fansi .zaifan {
+  width: 466px;
+  color: #A0A0A0;
+  text-align: right;
+}
+
+#car_main .j_s .fansi .zaifan .youhui {
+  margin-right: 18px;
+}
+
+#car_main .j_s .fansi .zaifan .zhongji {
+  margin-right: 18px;
+}
+
+#car_main .j_s .js_btn {
+  width: 119px;
+  height: 60px;
+  background: #E31436;
+  color: #fff;
+  line-height: 60px;
+  text-align: center;
+  font-size: 19px;
+}
+
+#car_main .box0 {
+  line-height: 56px;
+  font-size: 13px;
+  overflow: hidden;
+}
+
+#car_main .box0 .da {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333333;
+}
+
+#car_main .box0 .dan {
+  color: #999;
+  margin: 0 10px;
+}
+
+#car_main .kykul {
+  overflow: hidden;
+}
+
+#car_main .kykul li {
+  float: left;
+  width: 169px;
+  height: 237px;
+  border: 1px solid #ddd;
+  font-size: 12px;
+  color: #333;
+  text-align: center;
+  padding: 0 12px;
+  margin-right: 15px;
+}
+
+#car_main .kykul li:last-child {
+  margin: 0;
+}
+
+#car_main .kykul img {
+  width: 140px;
+}
+
+#car_main .kykul .p1 {
+  height: 32px;
+  overflow: hidden;
+}
+
+#car_main .kykul .p2 {
+  margin-top: 12px;
+}
+
+#car_main .kykul .p2 .xianjia {
+  color: #E31436;
+  font-size: 19px;
+}
+
+#car_main .kykul .p2 .yuanjia {
+  font-size: 12px;
+  color: #999;
+}
+
+#car_main .kykul .pl {
+  color: #999;
+}

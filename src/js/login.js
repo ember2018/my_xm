@@ -1,43 +1,39 @@
 var login = (function () {
-    return{
-        init(ele){
-            this.$username = $(".username");
-            this.$password = $(".password"); 
-            this.dl = $(".dl");
-            this.zhuce = $(".tiao_zhuce");
-            this.$ts1 = $(".ts1");
-            this.$ts2 = $(".ts2");
-           
+    return {
+        init(ele) {
+            this.$ele = document.querySelector(ele);
+      
+        
+            this.$login_account = document.querySelector('.login_account');
+        
+            this.$inputAll = this.$ele.querySelectorAll('input');
+            this.$submit = this.$ele.querySelector('.login_btn');           
             this.event();
-            
         },
-        event(){
+        event() {
             var _this = this;
+        
 
-            this.$username.on("change",function(){
+            for(let i = 0;i < this.$inputAll.length - 1;i++){
+                this.$inputAll[i].onblur = function(){
+                    var $p = this.parentNode.querySelector('.text');
+                    if(this.value == ''){
+                        this.setAttribute('class','inputerror');
+                        $p.innerHTML = this.getAttribute('empty');
+                    }else{
+                        this.setAttribute ('class','inputsuccess');
+                        $p.innerHTML = '';
+                        }
+                    }
+                }
 
-                var phone=_this.$username.val();
-    
-                if(!(/^1[34578]\d{9}$/.test(phone))){ 
-                    _this.$ts1.css({"visibility":"visible"});
-                    return false;
-                }else{
-                    _this.$ts1.css({"visibility":"hidden"});
-            };
-    
-            });
-   
 
 
-            this.zhuce.on("click",function(){
-                _this.dl.css({ "display": "none"});
-            });  
 
-        },
-    
 
- 
-    }
 
+                
+            }
+        }
 }())
 login.init('.dl');

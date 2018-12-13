@@ -12,7 +12,7 @@
 }
 
 #dl_main .dl {
-  display: block;
+  display: none;
   width: 352px;
   border: 1px solid #ddd;
   margin-left: 193px;
@@ -127,7 +127,7 @@
 }
 
 #dl_main .zhuce {
-  display: none;
+  display: block;
   width: 352px;
   border: 1px solid #ddd;
   margin-left: 193px;

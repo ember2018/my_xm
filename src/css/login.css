@@ -1,0 +1,124 @@
+#dl_main {
+  height: 600px;
+  background: #F8F8F8;
+  padding: 45px 0 0 140px;
+  overflow: hidden;
+  cursor: default;
+}
+
+
+
+#dl_main .dl {
+  display: block;
+  width: 352px;
+  border: 1px solid #ddd;
+  margin-left: 193px;
+
+}
+
+#dl_main .dl .tou {
+  width: 352px;
+  height: 53px;
+  border-bottom: 1px solid #ddd;
+  padding-top: 16px;
+}
+
+#dl_main .dl .tou .deng {
+  width: 176px;
+  font-size: 18px;
+  font-weight: 550;
+  color: #333;
+  text-align: center;
+}
+
+
+
+
+.login_account{
+  display: block;
+  width: 352px;
+  border: 1px solid #ddd;
+}
+.form_body .text{
+  color: red;
+  height: 33px;
+  line-height: 33px;
+  width: 374px;
+}
+.form_body .inputerror{
+  border: 1px solid red;
+}
+.form_body .inputsuccess{
+  border:1px solid green;
+}
+.form_body div{
+  position: relative;
+}
+
+.form_body div:nth-of-type(3) label{
+  font-size: 14px;
+  color: #333333;
+}
+.form_body div:nth-of-type(3) input{
+  margin-right: 14px;
+}
+.form_body div:nth-of-type(3) a{
+  float: right;
+  font-size: 14px;
+  color: #333333;
+}
+.form_body div:nth-of-type(3) a:hover{
+  color: #f10180;
+}
+.form_body input{
+
+  width: 270px;
+  height: 37px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  border-radius: 3px;
+  padding-left: 35px;
+}
+.form_body #checkbox{
+  width: 16px;
+  height: 16px;
+  border: 1px solid #e0e0e0;
+}
+.form_body .text{
+  color: red;
+  height: 33px;
+  line-height: 33px;
+  width: 374px;
+}
+.form_body .login_btn{
+  margin-top: 12px;
+  width: 270px;
+  height: 35px;
+  background: #E31436;
+  text-align: center;
+  color: #fff;
+  line-height: 35px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.icon{
+  width: 17px;
+  height: 18px;
+  position: absolute;
+  background-size: contain;
+  display: inline-block;
+  top: 217px;
+  right:531px;
+  z-index: 3;
+}
+.icon1{
+  width: 17px;
+  height: 18px;
+  position: absolute;
+  background-size: contain;
+  display: inline-block;
+  top: 288px;
+  right:531px;
+  z-index: 3;
+}

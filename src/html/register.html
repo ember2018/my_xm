@@ -2,76 +2,59 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
     <link rel="stylesheet" type="text/css" href="../css/base.css" />
     <link rel="stylesheet" type="text/css" href="../css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="../css/login.css" />
+    
 
-
-
+    <link rel="stylesheet" type="text/css" href="../css/register.css"/>
+    
 </head>
 
 <body>
         <a href="../index.html"><img src="../images/dl_tou.png" height="104" width="1258" alt="" class="daimg" /></a> 
         
-    <main id="dl_main">
-            <img src="../images/dl_zhong.png" alt="" class="fl"/>
 
-
-
-        
-
-             <div class="dl fl">
-
-                <div class="tou">
-                    <div class="deng sjh fl">手机号登录</div>
-                    <div class="deng yx fl">邮箱登录</div>
+    <div id="main_box">
+        <div class="main">
+                <i class="icon"><img src="../images/dh1.png"></i>
+                <i class="icon2"><img src="../images/dh2.png"></i>
+                <i class="icon3"><img src="../images/dh3.png"></i>
+            <form class="form" action="" method="post">
+                <div class="form_title">
+                    <b>会员注册</b>
+                    <i>已注册可<a href="login.html">直接登录</a></i>
                 </div>
-
-
-                <div class="login_account">
-                    <i class="icon"><img src="../images/dh5.png" alt=""></i>
-                    <i class="icon1"><img src="../images/dh6.png" alt=""></i>
-                        <form class="form" action="../../../server/php/login.php" method="POST">
-                            <div class="form_body">
-                                <div>
-                                    <input type="text" name="username" id="username" placeholder="手机号" empty="请输入登录名">
-                                 
-                                    <p class="text"></p>
-                                </div>
-                                <div>
-                                    <input type="text" name="userpassword" id="userpassword" placeholder="密码" empty="请输入密码">
-                                
-                                    <p class="text"></p>
-                                </div>
-                                <div>
-                                    <label>
-                                        <input type="checkbox" name="checkbox" id="checkbox">记住用户名
-                                    </label>
-                                    <a href="">忘记密码</a>
-                                </div>
-                                <button class="login_btn">登录</button>
-                            </div>
-                        </form>
+                <div class="form_body">
+                    <div>
+                        <i class="shop vipicon-shouji"></i>
+                        <input type="text" name="phone" id="phone" placeholder="请输入手机号码" error="请输入正确的手机号码" empty="手机号不能为空">
+                        <p class="text"></p>
                     </div>
 
-
-
-                <div class="wei">
-                    <img src="../images/duof.png" alt="" /><span class="fr tiao_zhuce"><a href="../html/register.html">手机快速注册</a> <img src="../images/dayuhao.png" alt="" /></span>
+                    <div>
+                        <i class="shop vipicon-suo"></i>
+                        <input type="password" name="password" id="password" placeholder="密码由6-20位字母，数字和符号组合" error="请输入6-20位密码" empty="密码不能为空">
+                        <p class="text"></p>
+                    </div>
+                    <div>
+                        <i class="shop vipicon-suo"></i>
+                        <input type="password" name="repassword" id="repassword" placeholder="请再次输入上面的密码" error="两次输入的密码不一致，请重试" empty="请输入确认密码">
+                        <p class="text"></p>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="checkbox" error="接受服务条款才能注册">
+                        <label for="checkbox">我已阅读并接受以下条款：<a href="">《服务条款》</a><a href="">《隐私条款》</a></label>
+                        <p class="text"></p>
+                    </div>
+                    <input type="submit" value="立即注册" id="submit">
                 </div>
-
-            </div>
-
-
-
-        </main>
-
-
-
-
-
-
+            </form>
+        </div>
+    </div>
 
 
 
@@ -107,10 +90,10 @@
     
             </div>
         </footer>
-        <script src="../js/jquery-3.3.1.min.js"></script>
-        <script src="../js/login.js"></script>  
-       
-        
+    
+    <script src="../js/register.js"></script>
+    <script src="../js/ajax2.0.js"></script>
+
 </body>
 
 </html>

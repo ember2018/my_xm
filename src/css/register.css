@@ -1,0 +1,163 @@
+#main_box{
+  height: 600px;
+  background-image: url(../images/lunbo.jpg);
+}
+.main{
+  margin: 0 auto;
+  width: 1250px;
+  height: 100%;
+ 
+}
+.main .form{
+
+  width: 352px;
+  height:500px;
+  float: right;
+  background:#ffffff;
+  margin-top: 33px;
+  border-radius: 5px;
+}
+.main .form .form_title{
+  height: 62px;
+  border-bottom:1px solid #e0e0e0;
+}
+.main .form .form_title b{
+  float: left;
+  font-size: 22px;
+  font-weight: 900;
+  color:#666;
+  margin: 20px 0 0 38px;
+}
+.main .form .form_title i{
+  float: right; 
+  font-size: 18px;
+  color:#000;
+  margin: 23px 38px 0 0;
+}
+.main .form .form_title i a{
+  font-size: 18px;
+  color:#f10180;
+}
+.form_body{
+  padding:38px 38px 0;
+}
+.form_body div{
+  position: relative;
+}
+
+
+.form_body .text{
+  color: red;
+  height: 33px;
+  line-height: 33px;
+  width: 374px;
+}
+.form_body .inputerror{
+  border: 1px solid red;
+}
+.form_body .inputsuccess{
+  border:1px solid green;
+}
+
+
+.form_body .shop{
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  font-size: 25px;
+  color: #fdcece;
+}
+.form_body input{
+  width: 270px;
+  height: 37px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  border-radius: 3px;
+  padding-left: 35px;
+}
+.form_body #phone{
+  width: 270px;
+  height: 37px;
+}
+.form_body #code{
+  width: 197px;
+  height: 57px;  
+}
+.form_body .notgetcode{
+  border: 0;
+  width: 165px;
+  height: 57px; 
+  background:#d0d0d0;
+  color: #9999a7;
+  float: right;
+  cursor: not-allowed; 
+  font-size: 18px;
+}
+
+.form_body #password{
+  width: 270px;
+  height: 37px; 
+}
+.form_body #repassword{
+  width: 270px;
+  height: 37px;
+}
+.form_body #submit{
+  margin-top: 12px;
+  width: 270px;
+  height: 35px;
+  background: #E31436;
+  text-align: center;
+  color: #fff;
+  line-height: 35px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.form_body #checkbox{
+  margin:0 8px 0 0;
+  width: 19px;
+  height: 16px;
+}
+.form_body label p{
+  line-height: 24px;
+  font-size: 14px;
+  display: inline;
+}
+.form_body label p a{
+  font-size: 14px;
+  color: #1d94d1;
+}
+#footer_box{
+  height: 104px;
+  background: #ffffff;
+}
+.icon{
+  width: 17px;
+  height: 18px;
+  position: absolute;
+  background-size: contain;
+  display: inline-block;
+  top: 250px;
+  right:335px;
+  z-index: 3;
+}
+.icon2{
+  width: 17px;
+  height: 18px;
+  position: absolute;
+  background-size: contain;
+  display: inline-block;
+  top: 320px;
+  right:335px;
+  z-index: 3;
+}
+.icon3{
+  width: 17px;
+  height: 18px;
+  position: absolute;
+  background-size: contain;
+  display: inline-block;
+  top: 390px;
+  right:335px;
+  z-index: 3;
+}
